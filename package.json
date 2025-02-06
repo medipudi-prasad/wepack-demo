@@ -1,0 +1,23 @@
+{
+  "name": "webpack-setup",
+  "version": "1.0.0",
+  "description": "to set up webpack and need to understand how it is going to work",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medipudi-prasad/wepack-demo.git"
+  },
+  "author": "medipudi-durga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medipudi-prasad/wepack-demo/issues"
+  },
+  "homepage": "https://github.com/medipudi-prasad/wepack-demo#readme",
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
