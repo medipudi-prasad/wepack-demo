@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/medipudi-prasad/wepack-demo#readme",
   "devDependencies": {
+    "bootstrap": "^5.3.3",
     "css-loader": "^7.1.2",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^16.0.4",
     "style-loader": "^4.0.0",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"

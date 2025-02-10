@@ -9,8 +9,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
-        use: ["style-loader", "css-loader"], //css loader will covert into js and style loader will convert js into styles
+        test: /\.scss$/, //regular expression - regex
+        use: [
+          "style-loader", //3. Inject styles into DOM
+          "css-loader", //2. Turns css into commonjs
+          "sass-loader", //1. Turns sass into css
+        ],
+        //css loader will covert into js and style loader will convert js into styles
       },
     ],
   },
