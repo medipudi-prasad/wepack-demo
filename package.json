@@ -4,7 +4,7 @@
   "description": "to set up webpack and need to understand how it is going to work",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start":  "webpack  --config webpack.config.js"
   },
   "repository": {
     "type": "git",
