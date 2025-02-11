@@ -4,7 +4,8 @@
   "description": "to set up webpack and need to understand how it is going to work",
   "main": "index.js",
   "scripts": {
-    "start": "webpack  --config webpack.config.js"
+    "start": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack  --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
     "sass-loader": "^16.0.4",
     "style-loader": "^4.0.0",
     "webpack": "^5.97.1",
-    "webpack-cli": "^6.0.1"
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-merge": "^6.0.1"
   }
 }
