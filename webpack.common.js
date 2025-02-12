@@ -18,6 +18,10 @@ module.exports = {
         ],
         //css loader will covert into js and style loader will convert js into styles
       },
+      {
+        test: /\.html$/,
+        use: ["html-loader"],
+      },
     ],
   },
 };
